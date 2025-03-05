@@ -1,0 +1,1265 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  28/Feb/2025  00:01:50
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Exe\BoardMachineV2024_enc.out
+#    Map file     =
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\List\BoardMachineV2024_enc.map
+#    Command line =
+#        -f
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Exe\BoardMachineV2024_enc.out.rsp
+#        (D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\aes.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\app.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Int_Driver\Src\board.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\BootLoader\Src\boot_loader.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\button.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\button_func.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\buzzer.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\calculator.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\FatFs\ccsbcs.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Int_Driver\Src\CLCD_I2C.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\cylinder.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\cylinder_sensor.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\FatFs\diskio.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\encoder.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\FATFS\App\fatfs.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\FatFs\ff.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\FatFs\ff_gen_drv.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\File_Handling.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\BootLoader\Src\flash.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\gpio.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\i2c.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Int_Driver\Src\interrupt_process.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\iwdg.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\led.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Common\Src\log.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\main.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\motor_billet.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\motor_sawn.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\motor_stepper.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\optical_sensor.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\process_data.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\run_machine.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Int_Driver\Src\serial.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\serial_func.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\signal_lights.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\EWARM\startup_stm32f407xx.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_cortex.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_exti.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ramfunc.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_gpio.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_hcd.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_iwdg.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\stm32f4xx_hal_msp.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_pwr.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_pwr_ex.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc_ex.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_tim.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_tim_ex.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_uart.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\stm32f4xx_it.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_ll_usb.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\FatFs\syscall.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\CMSIS\system_stm32f4xx.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\TI_aes_128.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\tim.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core\usart.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src\usb.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\USB_HOST\App\usb_host.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src\usb_process.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\USB_HOST\Target\usbh_conf.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library\usbh_core.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library\usbh_ctlreq.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\FATFS\Target\usbh_diskio.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library\usbh_ioreq.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library\usbh_msc.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library\usbh_msc_bot.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library\usbh_msc_scsi.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library\usbh_pipes.o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Int_Driver\Src\watchdog.o
+#        --no_out_extension -o
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Exe\BoardMachineV2024_enc.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\List\BoardMachineV2024_enc.map
+#        --config
+#        D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM/stm32f407xx_flash.icf
+#        --semihosting --entry __iar_program_start --redirect
+#        __iar_sh_stdout=__iar_sh_stdout_swo --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x802'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 48K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x188
+  .intvec            ro code   0x802'0000   0x188  startup_stm32f407xx.o [2]
+                             - 0x802'0188   0x188
+
+"P1":                                      0xbab4
+  .text              ro code   0x802'0188  0x12c4  process_data.o [1]
+  .text              ro code   0x802'144c    0x20  log.o [9]
+  .text              ro code   0x802'146c    0x66  ABImemset.o [18]
+  .text              ro code   0x802'14d2     0xa  xsprout.o [16]
+  .text              ro code   0x802'14dc    0xa6  ABImemcpy.o [18]
+  .rodata            const     0x802'1582     0x2  xlocale_c.o [16]
+  .text              ro code   0x802'1584   0x14c  iar_Stoulx.o [16]
+  .text              ro code   0x802'16d0    0x40  sprintf.o [16]
+  .text              ro code   0x802'1710     0xe  math_wrappers64.o [17]
+  .rodata            const     0x802'171e     0x2  xlocale_c.o [16]
+  .text              ro code   0x802'1720   0x1aa  DblMul.o [17]
+  .rodata            const     0x802'18ca     0x1  xlocale_c.o [16]
+  .text              ro code   0x802'18cc   0x246  DblDiv.o [17]
+  .text              ro code   0x802'1b14    0x62  round.o [17]
+  .text              ro code   0x802'1b78    0x36  DblToS32.o [17]
+  .text              ro code   0x802'1bb0    0x68  memcmp.o [18]
+  .text              ro code   0x802'1c18    0x34  DblCmpGe.o [17]
+  .text              ro code   0x802'1c4c    0xa0  aes.o [1]
+  .text              ro code   0x802'1cec    0xbc  calculator.o [1]
+  .text              ro code   0x802'1da8    0xe4  flash.o [8]
+  .text              ro code   0x802'1e8c    0x5c  serial.o [13]
+  .text              ro code   0x802'1ee8    0x36  strlen.o [18]
+  .text              ro code   0x802'1f1e    0x14  isspace.o [16]
+  .text              ro code   0x802'1f32    0x14  tolower.o [16]
+  .text              ro code   0x802'1f48    0x58  memchr.o [18]
+  .text              ro code   0x802'1fa0   0xf2e  xprintffull_nomb.o [16]
+  .text              ro code   0x802'2ed0   0x35c  strto64.o [17]
+  .text              ro code   0x802'322c   0x440  TI_aes_128.o [1]
+  .text              ro code   0x802'366c   0x260  stm32f4xx_hal_flash.o [11]
+  .text              ro code   0x802'38cc   0x1cc  stm32f4xx_hal_flash_ex.o [11]
+  .text              ro code   0x802'3a98   0x874  stm32f4xx_hal_uart.o [11]
+  .text              ro code   0x802'430c    0x4c  xlocale_c.o [16]
+  .text              ro code   0x802'4358    0x16  strchr.o [18]
+  .text              ro code   0x802'4370    0x40  xfail_s.o [16]
+  .text              ro code   0x802'43b0    0x70  frexp.o [17]
+  .text              ro code   0x802'4420    0x34  DblCmpLe.o [17]
+  .text              ro code   0x802'4454   0x13a  ldexp.o [17]
+  .text              ro code   0x802'4590    0x22  S32ToDbl.o [17]
+  .text              ro code   0x802'45b4   0x25e  DblAddSub.o [17]
+  .text              ro code   0x802'4814    0x22  DblToU32.o [17]
+  .text              ro code   0x802'4838    0x1c  U32ToDbl.o [17]
+  .text              ro code   0x802'4854   0x230  I64DivMod.o [18]
+  .text              ro code   0x802'4a84   0x122  iar_Stopfx.o [16]
+  .text              ro code   0x802'4ba8   0x1b8  iar_Stoflt.o [16]
+  .text              ro code   0x802'4d60   0x208  iar_Stoxflt.o [16]
+  .text              ro code   0x802'4f68     0xc  stm32f4xx_hal.o [11]
+  .text              ro code   0x802'4f74   0x1dc  usart.o [3]
+  .text              ro code   0x802'5150    0xc2  stm32f4xx_hal_dma.o [11]
+  .text              ro code   0x802'5212     0x2  stm32f4xx_hal_uart.o [11]
+  .text              ro code   0x802'5214     0x2  stm32f4xx_hal_uart.o [11]
+  .text              ro code   0x802'5216     0x2  stm32f4xx_hal_uart.o [11]
+  .text              ro code   0x802'5218   0x2f8  interrupt_process.o [13]
+  .text              ro code   0x802'5510   0x19c  stm32f4xx_hal_rcc.o [11]
+  .text              ro code   0x802'56ac     0x6  abort.o [16]
+  .text              ro code   0x802'56b4     0x2  I64DivZer.o [18]
+  .text              ro code   0x802'56b6    0x14  isalpha.o [16]
+  .text              ro code   0x802'56ca    0x14  main.o [3]
+  .text              ro code   0x802'56e0   0x3d0  stm32f4xx_hal_gpio.o [11]
+  .text              ro code   0x802'5ab0   0x168  stm32f4xx_hal_cortex.o [11]
+  .text              ro code   0x802'5c18    0x10  watchdog.o [13]
+  .text              ro code   0x802'5c28   0x32c  button_func.o [1]
+  .text              ro code   0x802'5f54    0x84  stm32f4xx_hal_rcc.o [11]
+  .text              ro code   0x802'5fd8    0x4c  stm32f4xx_hal.o [11]
+  .text              ro code   0x802'6024    0x14  exit.o [19]
+  .text              ro code   0x802'6038    0x40  stm32f4xx_hal.o [11]
+  .text              ro code   0x802'6078    0x60  app.o [1]
+  .text              ro code   0x802'60d8    0x68  stm32f4xx_hal_iwdg.o [11]
+  .text              ro code   0x802'6140    0x9c  button.o [12]
+  .text              ro code   0x802'61dc   0x16c  cylinder.o [12]
+  .text              ro code   0x802'6348   0x1b4  motor_stepper.o [12]
+  .text              ro code   0x802'64fc    0x54  motor_sawn.o [12]
+  .text              ro code   0x802'6550   0x584  board.o [13]
+  .text              ro code   0x802'6ad4    0x4c  stm32f4xx_hal_msp.o [3]
+  .text              ro code   0x802'6b20    0x80  buzzer.o [12]
+  .text              ro code   0x802'6ba0    0x68  cylinder_sensor.o [12]
+  .text              ro code   0x802'6c08    0x54  motor_billet.o [12]
+  .text              ro code   0x802'6c5c    0x58  optical_sensor.o [12]
+  .text              ro code   0x802'6cb4   0x580  run_machine.o [1]
+  .text              ro code   0x802'7234   0x3ec  serial_func.o [1]
+  .text              ro code   0x802'7620    0x28  stm32f4xx_hal.o [11]
+  .text              ro code   0x802'7648   0x438  tim.o [3]
+  .text              ro code   0x802'7a80   0xd72  stm32f4xx_hal_tim.o [11]
+  .text              ro code   0x802'87f4    0x30  encoder.o [12]
+  .text              ro code   0x802'8824   0x414  stm32f4xx_hal_rcc.o [11]
+  .text              ro code   0x802'8c38   0x298  gpio.o [3]
+  .text              ro code   0x802'8ed0    0x30  iwdg.o [3]
+  .text              ro code   0x802'8f00   0x1c8  i2c.o [3]
+  .text              ro code   0x802'90c8   0x1be  CLCD_I2C.o [13]
+  .text              ro code   0x802'9288    0xa4  boot_loader.o [8]
+  .text              ro code   0x802'932c    0xa8  stm32f4xx_hal_tim_ex.o [11]
+  .text              ro code   0x802'93d4     0x2  stm32f4xx_hal_tim.o [11]
+  .text              ro code   0x802'93d6     0x2  stm32f4xx_hal_tim.o [11]
+  .text              ro code   0x802'93d8     0x2  stm32f4xx_hal_tim.o [11]
+  .text              ro code   0x802'93da     0x2  stm32f4xx_hal_tim_ex.o [11]
+  .text              ro code   0x802'93dc     0x2  stm32f4xx_hal_tim.o [11]
+  .text              ro code   0x802'93de     0x2  stm32f4xx_hal_tim_ex.o [11]
+  .text              ro code   0x802'93e0   0x65a  stm32f4xx_hal_i2c.o [11]
+  .text              ro code   0x802'9a3a   0xc80  stm32f4xx_hal_hcd.o [11]
+  .text              ro code   0x802'a6bc   0x39e  stm32f4xx_ll_usb.o [11]
+  .text              ro code   0x802'aa5c    0x80  usbh_conf.o [7]
+  .text              ro code   0x802'aadc    0x82  usbh_core.o [15]
+  .text              ro code   0x802'ab5e    0x26  usbh_pipes.o [15]
+  .text              ro code   0x802'ab84   0x108  stm32f4xx_it.o [3]
+  .text              ro code   0x802'ac8c    0x18  stm32f4xx_hal.o [11]
+  .rodata            const     0x802'aca4   0x100  TI_aes_128.o [1]
+  .rodata            const     0x802'ada4   0x100  TI_aes_128.o [1]
+  .text              ro code   0x802'aea4    0x78  lz77_init_single.o [18]
+  .rodata            const     0x802'af1c    0x50  iar_Stoulx.o [16]
+  .rodata            const     0x802'af6c    0x24  button_func.o [1]
+  .rodata            const     0x802'af90    0x48  strto64.o [17]
+  .text              ro code   0x802'afd8    0x38  zero_init3.o [18]
+  .rodata            const     0x802'b010    0x28  run_machine.o [1]
+  .text              ro code   0x802'b038    0x28  data_init.o [18]
+  .rodata            const     0x802'b060    0x24  run_machine.o [1]
+  .rodata            const     0x802'b084    0x24  run_machine.o [1]
+  .text              ro code   0x802'b0a8    0x22  fpinit_M.o [17]
+  .iar.init_table    const     0x802'b0cc    0x20  - Linker created -
+  .rodata            const     0x802'b0ec    0x20  motor_stepper.o [12]
+  .rodata            const     0x802'b10c    0x20  motor_stepper.o [12]
+  .rodata            const     0x802'b12c    0x20  process_data.o [1]
+  .rodata            const     0x802'b14c    0x20  process_data.o [1]
+  .rodata            const     0x802'b16c    0x20  run_machine.o [1]
+  .rodata            const     0x802'b18c    0x20  run_machine.o [1]
+  .text              ro code   0x802'b1ac    0x20  system_stm32f4xx.o [10]
+  .text              ro code   0x802'b1cc    0x1e  cmain.o [18]
+  .text              ro code   0x802'b1ea     0x4  low_level_init.o [16]
+  .text              ro code   0x802'b1ee     0x4  exit.o [16]
+  .text              ro code   0x802'b1f4     0xa  cexit.o [18]
+  .rodata            const     0x802'b200    0x1c  button_func.o [1]
+  .rodata            const     0x802'b21c    0x1c  button_func.o [1]
+  .rodata            const     0x802'b238    0x1c  button_func.o [1]
+  .rodata            const     0x802'b254    0x1c  process_data.o [1]
+  .rodata            const     0x802'b270    0x1c  process_data.o [1]
+  .rodata            const     0x802'b28c    0x1c  process_data.o [1]
+  .rodata            const     0x802'b2a8    0x1c  process_data.o [1]
+  .rodata            const     0x802'b2c4    0x1c  run_machine.o [1]
+  .rodata            const     0x802'b2e0    0x1c  run_machine.o [1]
+  .rodata            const     0x802'b2fc    0x1c  run_machine.o [1]
+  .rodata            const     0x802'b318    0x1c  serial_func.o [1]
+  .text              ro code   0x802'b334    0x1c  cstartup_M.o [18]
+  .rodata            const     0x802'b350    0x18  boot_loader.o [8]
+  .rodata            const     0x802'b368    0x18  button_func.o [1]
+  .rodata            const     0x802'b380    0x18  cylinder.o [12]
+  .rodata            const     0x802'b398    0x18  cylinder.o [12]
+  .rodata            const     0x802'b3b0    0x18  motor_stepper.o [12]
+  .rodata            const     0x802'b3c8    0x18  process_data.o [1]
+  .rodata            const     0x802'b3e0    0x18  process_data.o [1]
+  .rodata            const     0x802'b3f8    0x18  process_data.o [1]
+  .rodata            const     0x802'b410    0x18  process_data.o [1]
+  .rodata            const     0x802'b428    0x18  process_data.o [1]
+  .rodata            const     0x802'b440    0x18  process_data.o [1]
+  .rodata            const     0x802'b458    0x18  process_data.o [1]
+  .rodata            const     0x802'b470    0x18  process_data.o [1]
+  .rodata            const     0x802'b488    0x18  process_data.o [1]
+  .rodata            const     0x802'b4a0    0x18  run_machine.o [1]
+  .rodata            const     0x802'b4b8    0x18  run_machine.o [1]
+  .rodata            const     0x802'b4d0    0x18  run_machine.o [1]
+  .rodata            const     0x802'b4e8    0x18  run_machine.o [1]
+  .rodata            const     0x802'b500    0x18  serial_func.o [1]
+  .rodata            const     0x802'b518    0x18  serial_func.o [1]
+  .rodata            const     0x802'b530    0x14  button_func.o [1]
+  .rodata            const     0x802'b544    0x14  button_func.o [1]
+  .rodata            const     0x802'b558    0x14  button_func.o [1]
+  .rodata            const     0x802'b56c    0x14  cylinder.o [12]
+  .rodata            const     0x802'b580    0x14  cylinder.o [12]
+  .rodata            const     0x802'b594    0x14  cylinder.o [12]
+  .rodata            const     0x802'b5a8    0x14  cylinder.o [12]
+  .rodata            const     0x802'b5bc    0x14  process_data.o [1]
+  .rodata            const     0x802'b5d0    0x14  process_data.o [1]
+  .rodata            const     0x802'b5e4    0x14  process_data.o [1]
+  .rodata            const     0x802'b5f8    0x14  process_data.o [1]
+  .rodata            const     0x802'b60c    0x14  process_data.o [1]
+  .rodata            const     0x802'b620    0x14  process_data.o [1]
+  .rodata            const     0x802'b634    0x14  process_data.o [1]
+  .rodata            const     0x802'b648    0x14  process_data.o [1]
+  .rodata            const     0x802'b65c    0x14  process_data.o [1]
+  .rodata            const     0x802'b670    0x14  process_data.o [1]
+  .rodata            const     0x802'b684    0x14  process_data.o [1]
+  .rodata            const     0x802'b698    0x14  process_data.o [1]
+  .rodata            const     0x802'b6ac    0x14  run_machine.o [1]
+  .rodata            const     0x802'b6c0    0x14  run_machine.o [1]
+  .rodata            const     0x802'b6d4    0x14  serial_func.o [1]
+  .rodata            const     0x802'b6e8    0x14  serial_func.o [1]
+  .rodata            const     0x802'b6fc    0x14  serial_func.o [1]
+  .rodata            const     0x802'b710    0x10  aes.o [1]
+  .rodata            const     0x802'b720    0x10  aes.o [1]
+  .rodata            const     0x802'b730    0x10  app.o [1]
+  .rodata            const     0x802'b740    0x10  boot_loader.o [8]
+  .rodata            const     0x802'b750    0x10  cylinder.o [12]
+  .rodata            const     0x802'b760    0x10  process_data.o [1]
+  .rodata            const     0x802'b770    0x10  process_data.o [1]
+  .rodata            const     0x802'b780    0x10  process_data.o [1]
+  .rodata            const     0x802'b790    0x10  process_data.o [1]
+  .rodata            const     0x802'b7a0    0x10  process_data.o [1]
+  .rodata            const     0x802'b7b0    0x10  process_data.o [1]
+  .rodata            const     0x802'b7c0    0x10  process_data.o [1]
+  .rodata            const     0x802'b7d0    0x10  process_data.o [1]
+  .rodata            const     0x802'b7e0    0x10  process_data.o [1]
+  .rodata            const     0x802'b7f0    0x10  process_data.o [1]
+  .rodata            const     0x802'b800    0x10  process_data.o [1]
+  .rodata            const     0x802'b810    0x10  process_data.o [1]
+  .rodata            const     0x802'b820    0x10  process_data.o [1]
+  .rodata            const     0x802'b830    0x10  process_data.o [1]
+  .rodata            const     0x802'b840    0x10  process_data.o [1]
+  .rodata            const     0x802'b850    0x10  process_data.o [1]
+  .rodata            const     0x802'b860    0x10  process_data.o [1]
+  .rodata            const     0x802'b870    0x10  process_data.o [1]
+  .rodata            const     0x802'b880    0x10  process_data.o [1]
+  .rodata            const     0x802'b890    0x10  process_data.o [1]
+  .rodata            const     0x802'b8a0    0x10  process_data.o [1]
+  .rodata            const     0x802'b8b0    0x10  process_data.o [1]
+  .rodata            const     0x802'b8c0    0x10  process_data.o [1]
+  .rodata            const     0x802'b8d0    0x10  process_data.o [1]
+  .rodata            const     0x802'b8e0    0x10  process_data.o [1]
+  .rodata            const     0x802'b8f0    0x10  process_data.o [1]
+  .rodata            const     0x802'b900    0x10  run_machine.o [1]
+  .rodata            const     0x802'b910    0x10  run_machine.o [1]
+  .rodata            const     0x802'b920    0x10  run_machine.o [1]
+  .rodata            const     0x802'b930    0x10  run_machine.o [1]
+  .rodata            const     0x802'b940    0x10  serial.o [13]
+  .rodata            const     0x802'b950    0x10  serial_func.o [1]
+  .rodata            const     0x802'b960    0x10  serial_func.o [1]
+  .rodata            const     0x802'b970    0x10  serial_func.o [1]
+  .rodata            const     0x802'b980    0x10  serial_func.o [1]
+  .rodata            const     0x802'b990    0x10  serial_func.o [1]
+  .rodata            const     0x802'b9a0    0x10  system_stm32f4xx.o [10]
+  .text              ro code   0x802'b9b0    0x10  startup_stm32f407xx.o [2]
+  .rodata            const     0x802'b9c0     0xc  board.o [13]
+  .rodata            const     0x802'b9cc     0xc  process_data.o [1]
+  .rodata            const     0x802'b9d8     0xc  process_data.o [1]
+  .rodata            const     0x802'b9e4     0xc  process_data.o [1]
+  .rodata            const     0x802'b9f0     0xc  process_data.o [1]
+  .rodata            const     0x802'b9fc     0xc  process_data.o [1]
+  .rodata            const     0x802'ba08     0xc  process_data.o [1]
+  .rodata            const     0x802'ba14     0xc  process_data.o [1]
+  .rodata            const     0x802'ba20     0xc  process_data.o [1]
+  .rodata            const     0x802'ba2c     0xc  process_data.o [1]
+  .rodata            const     0x802'ba38     0xc  process_data.o [1]
+  .rodata            const     0x802'ba44     0xc  process_data.o [1]
+  .rodata            const     0x802'ba50     0xc  process_data.o [1]
+  .rodata            const     0x802'ba5c     0xc  process_data.o [1]
+  .rodata            const     0x802'ba68     0xc  process_data.o [1]
+  .rodata            const     0x802'ba74     0xc  run_machine.o [1]
+  .rodata            const     0x802'ba80     0xc  run_machine.o [1]
+  .rodata            const     0x802'ba8c     0xc  run_machine.o [1]
+  .rodata            const     0x802'ba98     0xc  run_machine.o [1]
+  .rodata            const     0x802'baa4     0xc  run_machine.o [1]
+  .rodata            const     0x802'bab0     0xc  run_machine.o [1]
+  .rodata            const     0x802'babc     0xc  run_machine.o [1]
+  .rodata            const     0x802'bac8     0xc  TI_aes_128.o [1]
+  .rodata            const     0x802'bad4     0x8  process_data.o [1]
+  .rodata            const     0x802'badc     0x8  process_data.o [1]
+  .rodata            const     0x802'bae4     0x8  system_stm32f4xx.o [10]
+  .text              ro code   0x802'baec     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'baf0     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'baf4     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'baf8     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bafc     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb00     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb04     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb08     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb0c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb10     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb14     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb18     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb1c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb20     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb24     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb28     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb2c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb30     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb34     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb38     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb3c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb40     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb44     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb48     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb4c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb50     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb54     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb58     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb5c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb60     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb64     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb68     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb6c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb70     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb74     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb78     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb7c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb80     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb84     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb88     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb8c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb90     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb94     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb98     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bb9c     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bba0     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bba4     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bba8     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbac     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbb0     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbb4     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbb8     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbbc     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbc0     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbc4     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbc8     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbcc     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbd0     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbd4     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbd8     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbdc     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbe0     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbe4     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbe8     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbec     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbf0     0x4  startup_stm32f407xx.o [2]
+  .text              ro code   0x802'bbf4     0x4  startup_stm32f407xx.o [2]
+  .rodata            const     0x802'bbf8     0x0  zero_init3.o [18]
+  .rodata            const     0x802'bbf8     0x0  lz77_init_single.o [18]
+  Initializer bytes  const     0x802'bbf8    0x44  <for P2-1>
+                             - 0x802'bc3c  0xbab4
+
+"P2", part 1 of 3:                           0x8a
+  P2-1                        0x2000'0000    0x8a  <Init block>
+    .data            inited   0x2000'0000     0x4  stm32f4xx_hal.o [11]
+    .data            inited   0x2000'0004     0x4  system_stm32f4xx.o [10]
+    .data            inited   0x2000'0008    0x38  xlocale_c.o [16]
+    .data            inited   0x2000'0040    0x48  xlocale_c.o [16]
+    .data            inited   0x2000'0088     0x1  interrupt_process.o [13]
+    .data            inited   0x2000'0089     0x1  stm32f4xx_hal.o [11]
+                            - 0x2000'008a    0x8a
+
+"P2", part 2 of 3:                         0x7c88
+  .bss               zero     0x2000'008c  0x500c  usb_process.o [12]
+  .bss               zero     0x2000'5098  0x1b5c  run_machine.o [1]
+  .bss               zero     0x2000'6bf4   0x850  serial_func.o [1]
+  .bss               zero     0x2000'7444   0x304  usbh_conf.o [7]
+  .bss               zero     0x2000'7748    0xb8  board.o [13]
+  .bss               zero     0x2000'7800    0xa8  board.o [13]
+  .bss               zero     0x2000'78a8    0xa8  button.o [12]
+  .bss               zero     0x2000'7950    0x70  board.o [13]
+  .bss               zero     0x2000'79c0    0x54  i2c.o [3]
+  .bss               zero     0x2000'7a14    0x54  i2c.o [3]
+  .bss               zero     0x2000'7a68    0x48  tim.o [3]
+  .bss               zero     0x2000'7ab0    0x48  tim.o [3]
+  .bss               zero     0x2000'7af8    0x48  tim.o [3]
+  .bss               zero     0x2000'7b40    0x48  tim.o [3]
+  .bss               zero     0x2000'7b88    0x44  usart.o [3]
+  .bss               zero     0x2000'7bcc    0x44  usart.o [3]
+  .bss               zero     0x2000'7c10    0x34  log.o [9]
+  .bss               zero     0x2000'7c44    0x30  serial_func.o [1]
+  .bss               zero     0x2000'7c74    0x20  stm32f4xx_hal_flash.o [11]
+  .bss               zero     0x2000'7c94    0x10  run_machine.o [1]
+  .bss               zero     0x2000'7ca4     0xc  CLCD_I2C.o [13]
+  .bss               zero     0x2000'7cb0     0xc  cylinder_sensor.o [12]
+  .bss               zero     0x2000'7cbc     0xc  iwdg.o [3]
+  .bss               zero     0x2000'7cc8     0x8  cylinder.o [12]
+  .bss               zero     0x2000'7cd0     0x8  run_machine.o [1]
+  .bss               zero     0x2000'7cd8     0x4  buzzer.o [12]
+  .bss               zero     0x2000'7cdc     0x4  interrupt_process.o [13]
+  .bss               zero     0x2000'7ce0     0x4  interrupt_process.o [13]
+  .bss               zero     0x2000'7ce4     0x4  interrupt_process.o [13]
+  .bss               zero     0x2000'7ce8     0x4  interrupt_process.o [13]
+  .bss               zero     0x2000'7cec     0x4  optical_sensor.o [12]
+  .bss               zero     0x2000'7cf0     0x4  stm32f4xx_hal.o [11]
+  .bss               zero     0x2000'7cf4     0x4  xfail_s.o [16]
+  .bss               zero     0x2000'7cf8     0x2  boot_loader.o [8]
+  .bss               zero     0x2000'7cfa     0x2  boot_loader.o [8]
+  .bss               zero     0x2000'7cfc     0x2  boot_loader.o [8]
+  .bss               zero     0x2000'7cfe     0x2  interrupt_process.o [13]
+  .bss               zero     0x2000'7d00     0x2  interrupt_process.o [13]
+  .bss               zero     0x2000'7d02     0x2  interrupt_process.o [13]
+  .bss               zero     0x2000'7d04     0x2  interrupt_process.o [13]
+  .bss               zero     0x2000'7d06     0x2  interrupt_process.o [13]
+  .bss               zero     0x2000'7d08     0x2  motor_stepper.o [12]
+  .bss               zero     0x2000'7d0a     0x1  interrupt_process.o [13]
+  .bss               zero     0x2000'7d0b     0x1  interrupt_process.o [13]
+  .bss               zero     0x2000'7d0c     0x1  interrupt_process.o [13]
+  .bss               zero     0x2000'7d0d     0x1  interrupt_process.o [13]
+  .bss               zero     0x2000'7d0e     0x1  interrupt_process.o [13]
+  .bss               zero     0x2000'7d0f     0x1  log.o [9]
+  .bss               zero     0x2000'7d10     0x1  motor_billet.o [12]
+  .bss               zero     0x2000'7d11     0x1  motor_sawn.o [12]
+  .bss               zero     0x2000'7d12     0x1  process_data.o [1]
+                            - 0x2000'7d13  0x7c87
+
+"P2", part 3 of 3:                         0xc000
+  CSTACK                      0x2000'7d18  0xc000  <Block>
+    CSTACK           uninit   0x2000'7d18  0xc000  <Block tail>
+                            - 0x2001'3d18  0xc000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0000   0x801'ffff  0x2'0000
+   0x802'bc3c   0x80f'ffff  0xd'43c4
+  0x2000'008a  0x2000'008b       0x2
+  0x2000'7d14  0x2000'7d17       0x4
+  0x2001'3d18  0x2001'ffff    0xc2e8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x7c87:
+          0x2000'008c  0x7c87
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x44 (49% of destination):
+           0x802'bbf8    0x44
+    1 destination range, total size 0x8a:
+          0x2000'0000    0x8a
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+command line/config:
+    ---------------------------------------------------
+    Total:
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src: [1]
+    TI_aes_128.o                1'088      524
+    aes.o                         160       32
+    app.o                          96       16
+    button_func.o                 812      204
+    calculator.o                  188
+    process_data.o              4'804    1'232        1
+    run_machine.o               1'408      544    7'028
+    serial_func.o               1'004      216    2'176
+    ---------------------------------------------------
+    Total:                      9'560    2'768    9'205
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\EWARM: [2]
+    startup_stm32f407xx.o         676
+    ---------------------------------------------------
+    Total:                        676
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core: [3]
+    gpio.o                        664
+    i2c.o                         456               168
+    iwdg.o                         48                12
+    main.o                         20
+    stm32f4xx_hal_msp.o            76
+    stm32f4xx_it.o                264
+    tim.o                       1'080               288
+    usart.o                       476               136
+    ---------------------------------------------------
+    Total:                      3'084               604
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\FATFS\App: [4]
+    ---------------------------------------------------
+    Total:
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\FATFS\Target: [5]
+    ---------------------------------------------------
+    Total:
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\USB_HOST\App: [6]
+    ---------------------------------------------------
+    Total:
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\USB_HOST\Target: [7]
+    usbh_conf.o                   128               772
+    ---------------------------------------------------
+    Total:                        128               772
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\BootLoader\Src: [8]
+    boot_loader.o                 164       40        6
+    flash.o                       228
+    ---------------------------------------------------
+    Total:                        392       40        6
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Common\Src: [9]
+    log.o                          32                53
+    ---------------------------------------------------
+    Total:                         32                53
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\CMSIS: [10]
+    system_stm32f4xx.o             32       26        4
+    ---------------------------------------------------
+    Total:                         32       26        4
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver: [11]
+    stm32f4xx_hal.o               216        2        9
+    stm32f4xx_hal_cortex.o        360
+    stm32f4xx_hal_dma.o           194
+    stm32f4xx_hal_flash.o         608                32
+    stm32f4xx_hal_flash_ex.o      460
+    stm32f4xx_hal_gpio.o          976
+    stm32f4xx_hal_hcd.o         3'200
+    stm32f4xx_hal_i2c.o         1'626
+    stm32f4xx_hal_iwdg.o          104
+    stm32f4xx_hal_rcc.o         1'588
+    stm32f4xx_hal_tim.o         3'450
+    stm32f4xx_hal_tim_ex.o        172
+    stm32f4xx_hal_uart.o        2'170
+    stm32f4xx_ll_usb.o            926
+    ---------------------------------------------------
+    Total:                     16'050        2       41
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src: [12]
+    button.o                      156               168
+    buzzer.o                      128                 4
+    cylinder.o                    364      144        8
+    cylinder_sensor.o             104                12
+    encoder.o                      48
+    motor_billet.o                 84                 1
+    motor_sawn.o                   84                 1
+    motor_stepper.o               436       88        2
+    optical_sensor.o               88                 4
+    usb_process.o                                20'492
+    ---------------------------------------------------
+    Total:                      1'492      232   20'692
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Int_Driver\Src: [13]
+    CLCD_I2C.o                    446                12
+    board.o                     1'412       12      464
+    interrupt_process.o           760                32
+    serial.o                       92       16
+    watchdog.o                     16
+    ---------------------------------------------------
+    Total:                      2'726       28      508
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\FatFs: [14]
+    ---------------------------------------------------
+    Total:
+
+D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library: [15]
+    usbh_core.o                   130
+    usbh_pipes.o                   38
+    ---------------------------------------------------
+    Total:                        168
+
+dl7M_tlf.a: [16]
+    abort.o                         6
+    exit.o                          4
+    iar_Stoflt.o                  440
+    iar_Stopfx.o                  290
+    iar_Stoulx.o                  332       80
+    iar_Stoxflt.o                 520
+    isalpha.o                      20
+    isspace.o                      20
+    low_level_init.o                4
+    sprintf.o                      64
+    tolower.o                      20
+    xfail_s.o                      64                 4
+    xlocale_c.o                    76       69      128
+    xprintffull_nomb.o          3'886
+    xsprout.o                      10
+    ---------------------------------------------------
+    Total:                      5'756      149      132
+
+m7M_tls.a: [17]
+    DblAddSub.o                   606
+    DblCmpGe.o                     52
+    DblCmpLe.o                     52
+    DblDiv.o                      582
+    DblMul.o                      426
+    DblToS32.o                     54
+    DblToU32.o                     34
+    S32ToDbl.o                     34
+    U32ToDbl.o                     28
+    fpinit_M.o                     34
+    frexp.o                       112
+    ldexp.o                       314
+    math_wrappers64.o              14
+    round.o                        98
+    strto64.o                     860       72
+    ---------------------------------------------------
+    Total:                      3'300       72
+
+rt7M_tl.a: [18]
+    ABImemcpy.o                   166
+    ABImemset.o                   102
+    I64DivMod.o                   560
+    I64DivZer.o                     2
+    cexit.o                        10
+    cmain.o                        30
+    cstartup_M.o                   28
+    data_init.o                    40
+    lz77_init_single.o            120
+    memchr.o                       88
+    memcmp.o                      104
+    strchr.o                       22
+    strlen.o                       54
+    zero_init3.o                   56
+    ---------------------------------------------------
+    Total:                      1'382
+
+shb_l.a: [19]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+    Gaps                           37        4
+    Linker created                          32   49'152
+-------------------------------------------------------
+    Grand Total:               44'835    3'353   81'169
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x802'b0cc           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x802'b0ec           --   Gb  - Linker created -
+?main                    0x802'b1cd          Code  Gb  cmain.o [18]
+AHBPrescTable            0x802'b9a0    0x10  Data  Gb  system_stm32f4xx.o [10]
+APBPrescTable            0x802'bae4     0x8  Data  Gb  system_stm32f4xx.o [10]
+BL_WriteProgFlag         0x802'9289    0x7e  Code  Lc  boot_loader.o [8]
+BL_WriteRequestProgFW    0x802'9307    0x1e  Code  Gb  boot_loader.o [8]
+BTN_BilletGoBackProcess
+                         0x802'5d5f    0x5c  Code  Gb  button_func.o [1]
+BTN_BilletGoUpProcess    0x802'5d09    0x56  Code  Gb  button_func.o [1]
+BTN_ClearPin             0x802'6141    0x10  Code  Gb  button.o [12]
+BTN_CylinderCutProcess   0x802'5e8d    0x4a  Code  Gb  button_func.o [1]
+BTN_CylinderHoldBilletProcess
+                         0x802'5e43    0x4a  Code  Gb  button_func.o [1]
+BTN_CylinderSawnProcess
+                         0x802'5df9    0x4a  Code  Gb  button_func.o [1]
+BTN_DetectPin            0x802'6151    0x58  Code  Gb  button.o [12]
+BTN_IsPress              0x802'61a9    0x2e  Code  Gb  button.o [12]
+BTN_MotorSawnProcess     0x802'5dbb    0x3e  Code  Gb  button_func.o [1]
+BTN_PauseProcess         0x802'5cd9    0x18  Code  Gb  button_func.o [1]
+BTN_StartProcess         0x802'5cc1    0x18  Code  Gb  button_func.o [1]
+BTN_StopProcess          0x802'5cf1    0x18  Code  Gb  button_func.o [1]
+BoardInit                0x802'6ab5    0x20  Code  Gb  board.o [13]
+BusFault_Handler         0x802'ab8b     0x2  Code  Gb  stm32f4xx_it.o [3]
+Button                  0x2000'78a8    0xa8  Data  Gb  button.o [12]
+Button_Detect            0x802'5c75    0x4c  Code  Gb  button_func.o [1]
+Button_Init              0x802'5c29    0x4c  Code  Gb  button_func.o [1]
+Button_Process           0x802'5f2d    0x28  Code  Gb  button_func.o [1]
+Buzzer                  0x2000'7cd8     0x4  Data  Gb  buzzer.o [12]
+BuzzerOff                0x802'6a49    0x16  Code  Gb  board.o [13]
+BuzzerOn                 0x802'6a33    0x16  Code  Gb  board.o [13]
+Buzzer_Init              0x802'6b65    0x24  Code  Gb  buzzer.o [12]
+Buzzer_Process           0x802'6b89     0xe  Code  Gb  buzzer.o [12]
+Buzzer_Write             0x802'6b21    0x44  Code  Gb  buzzer.o [12]
+CLCD_Delay               0x802'90c9     0xa  Code  Lc  CLCD_I2C.o [13]
+CLCD_I2C_Clear           0x802'9275    0x12  Code  Gb  CLCD_I2C.o [13]
+CLCD_I2C_Init            0x802'9147    0xa6  Code  Gb  CLCD_I2C.o [13]
+CLCD_I2C_SetCursor       0x802'91ed    0x62  Code  Gb  CLCD_I2C.o [13]
+CLCD_I2C_WriteChar       0x802'924f     0xc  Code  Gb  CLCD_I2C.o [13]
+CLCD_I2C_WriteString     0x802'925b    0x1a  Code  Gb  CLCD_I2C.o [13]
+CLCD_WriteI2C            0x802'90d3    0x74  Code  Lc  CLCD_I2C.o [13]
+CRC16                    0x802'1d31    0x38  Code  Gb  calculator.o [1]
+CSTACK$$Base            0x2000'7d18           --   Gb  - Linker created -
+CSTACK$$Limit           0x2001'3d18           --   Gb  - Linker created -
+CalCRC                   0x802'1ced    0x44  Code  Lc  calculator.o [1]
+Charactor               0x2000'5098  0x1b5c  Data  Gb  run_machine.o [1]
+CheckCRC16               0x802'1d69    0x40  Code  Gb  calculator.o [1]
+CheckNumOK               0x802'01a5   0x1ce  Code  Lc  process_data.o [1]
+CheckValidData           0x802'0a1d    0xac  Code  Lc  process_data.o [1]
+Cmd_rec                 0x2000'7d12     0x1  Data  Gb  process_data.o [1]
+CySensor                0x2000'7cb0     0xc  Data  Gb  cylinder_sensor.o [12]
+CySensor_Init            0x802'6bd3    0x2e  Code  Gb  cylinder_sensor.o [12]
+CySensor_ReadState       0x802'6ba1    0x32  Code  Gb  cylinder_sensor.o [12]
+Cylinder                0x2000'7cc8     0x8  Data  Gb  cylinder.o [12]
+Cylinder_CutEnd          0x802'62c7    0x4c  Code  Gb  cylinder.o [12]
+Cylinder_Init            0x802'6221    0x46  Code  Gb  cylinder.o [12]
+Cylinder_Sawn            0x802'6267    0x60  Code  Gb  cylinder.o [12]
+Cylinder_Write           0x802'61dd    0x44  Code  Gb  cylinder.o [12]
+DebugMon_Handler         0x802'ab91     0x2  Code  Gb  stm32f4xx_it.o [3]
+Dtentox                  0x802'2ed1   0x1d4  Code  Lc  strto64.o [17]
+ENC_CountStart           0x802'87f5    0x10  Code  Gb  encoder.o [12]
+ENC_CountStop            0x802'880f    0x12  Code  Gb  encoder.o [12]
+ENC_ReadNumPulse         0x802'8805     0xa  Code  Gb  encoder.o [12]
+EXTI0_IRQHandler         0x802'ab9d     0xa  Code  Gb  stm32f4xx_it.o [3]
+EXTI15_10_IRQHandler     0x802'ac31    0x34  Code  Gb  stm32f4xx_it.o [3]
+EXTI1_IRQHandler         0x802'aba7     0xa  Code  Gb  stm32f4xx_it.o [3]
+EXTI2_IRQHandler         0x802'abb1     0xa  Code  Gb  stm32f4xx_it.o [3]
+EXTI3_IRQHandler         0x802'abbb     0xa  Code  Gb  stm32f4xx_it.o [3]
+EXTI4_IRQHandler         0x802'abc5     0xa  Code  Gb  stm32f4xx_it.o [3]
+EXTI9_5_IRQHandler       0x802'abcf    0x26  Code  Gb  stm32f4xx_it.o [3]
+Error_Handler            0x802'56db     0x4  Code  Gb  main.o [3]
+FLASH_Erase_Sector       0x802'39ad    0x6c  Code  Gb  stm32f4xx_hal_flash_ex.o [11]
+FLASH_FlushCaches        0x802'3a19    0x72  Code  Gb  stm32f4xx_hal_flash_ex.o [11]
+FLASH_MassErase          0x802'3981    0x2c  Code  Lc  stm32f4xx_hal_flash_ex.o [11]
+FLASH_Program_Byte       0x802'3809    0x24  Code  Lc  stm32f4xx_hal_flash.o [11]
+FLASH_Program_DoubleWord
+                         0x802'3785    0x34  Code  Lc  stm32f4xx_hal_flash.o [11]
+FLASH_Program_HalfWord   0x802'37e1    0x28  Code  Lc  stm32f4xx_hal_flash.o [11]
+FLASH_Program_Word       0x802'37b9    0x28  Code  Lc  stm32f4xx_hal_flash.o [11]
+FLASH_SetErrorCode       0x802'382d    0x84  Code  Lc  stm32f4xx_hal_flash.o [11]
+FLASH_WaitForLastOperation
+                         0x802'372f    0x56  Code  Gb  stm32f4xx_hal_flash.o [11]
+FL_EraseSector           0x802'1da9    0x2c  Code  Gb  flash.o [8]
+FL_ProgFW                0x802'11d5    0x92  Code  Gb  process_data.o [1]
+FL_ReadPage              0x802'1e3f    0x4e  Code  Gb  flash.o [8]
+FL_WritePage             0x802'1dd5    0x66  Code  Gb  flash.o [8]
+FW_u16NumPage           0x2000'7cfc     0x2  Data  Gb  boot_loader.o [8]
+FW_u16RealAddrPage      0x2000'7cf8     0x2  Data  Gb  boot_loader.o [8]
+FW_u16SeqPage           0x2000'7cfa     0x2  Data  Gb  boot_loader.o [8]
+F_read                   0x802'1e3b     0x4  Code  Gb  flash.o [8]
+File                    0x2000'008c  0x500c  Data  Gb  usb_process.o [12]
+FwProcess                0x802'127d    0xf4  Code  Gb  process_data.o [1]
+GetData                  0x802'065b   0x3aa  Code  Lc  process_data.o [1]
+GetDataFromFile          0x802'1199    0x32  Code  Gb  process_data.o [1]
+GetLines                 0x802'0373    0xe2  Code  Lc  process_data.o [1]
+GetMachineSetting        0x802'04c1   0x19a  Code  Lc  process_data.o [1]
+GetUART_File             0x802'0ac9   0x452  Code  Lc  process_data.o [1]
+GetValSetting            0x802'045d    0x5a  Code  Lc  process_data.o [1]
+Get_Billet1st            0x802'6eb7    0x62  Code  Gb  run_machine.o [1]
+GoToBootLoader           0x802'0189    0x1c  Code  Gb  process_data.o [1]
+HAL_DMA_Abort            0x802'5151    0x9c  Code  Gb  stm32f4xx_hal_dma.o [11]
+HAL_DMA_Abort_IT         0x802'51ed    0x26  Code  Gb  stm32f4xx_hal_dma.o [11]
+HAL_Delay                0x802'7621    0x28  Code  Gb  stm32f4xx_hal.o [11]
+HAL_FLASHEx_Erase        0x802'38cd    0xb4  Code  Gb  stm32f4xx_hal_flash_ex.o [11]
+HAL_FLASH_Lock           0x802'371f    0x10  Code  Gb  stm32f4xx_hal_flash.o [11]
+HAL_FLASH_Program        0x802'366d    0x8e  Code  Gb  stm32f4xx_hal_flash.o [11]
+HAL_FLASH_Unlock         0x802'36fb    0x24  Code  Gb  stm32f4xx_hal_flash.o [11]
+HAL_GPIO_DeInit          0x802'58cf   0x14a  Code  Gb  stm32f4xx_hal_gpio.o [11]
+HAL_GPIO_EXTI_Callback   0x802'5219   0x136  Code  Gb  interrupt_process.o [13]
+HAL_GPIO_EXTI_IRQHandler
+                         0x802'5a53    0x1e  Code  Gb  stm32f4xx_hal_gpio.o [11]
+HAL_GPIO_Init            0x802'56e1   0x1ee  Code  Gb  stm32f4xx_hal_gpio.o [11]
+HAL_GPIO_ReadPin         0x802'5a19    0x12  Code  Gb  stm32f4xx_hal_gpio.o [11]
+HAL_GPIO_TogglePin       0x802'5a3f    0x14  Code  Gb  stm32f4xx_hal_gpio.o [11]
+HAL_GPIO_WritePin        0x802'5a2b    0x14  Code  Gb  stm32f4xx_hal_gpio.o [11]
+HAL_GetTick              0x802'4f69     0xc  Code  Gb  stm32f4xx_hal.o [11]
+HAL_HCD_Connect_Callback
+                         0x802'aa69     0xc  Code  Gb  usbh_conf.o [7]
+HAL_HCD_Disconnect_Callback
+                         0x802'aa75     0xc  Code  Gb  usbh_conf.o [7]
+HAL_HCD_HC_NotifyURBChange_Callback
+                         0x802'aa81     0x2  Code  Gb  usbh_conf.o [7]
+HAL_HCD_IRQHandler       0x802'9a3b   0x144  Code  Gb  stm32f4xx_hal_hcd.o [11]
+HAL_HCD_PortDisabled_Callback
+                         0x802'aa8f     0xc  Code  Gb  usbh_conf.o [7]
+HAL_HCD_PortEnabled_Callback
+                         0x802'aa83     0xc  Code  Gb  usbh_conf.o [7]
+HAL_HCD_SOF_Callback     0x802'aa5d     0xc  Code  Gb  usbh_conf.o [7]
+HAL_HCD_Stop             0x802'9b7f    0x26  Code  Gb  stm32f4xx_hal_hcd.o [11]
+HAL_I2C_Init             0x802'93e1   0x1d8  Code  Gb  stm32f4xx_hal_i2c.o [11]
+HAL_I2C_Master_Transmit
+                         0x802'95b9   0x16c  Code  Gb  stm32f4xx_hal_i2c.o [11]
+HAL_I2C_MspInit          0x802'8f95   0x10c  Code  Gb  i2c.o [3]
+HAL_IWDG_Init            0x802'60d9    0x5c  Code  Gb  stm32f4xx_hal_iwdg.o [11]
+HAL_IWDG_Refresh         0x802'6135     0xc  Code  Gb  stm32f4xx_hal_iwdg.o [11]
+HAL_IncTick              0x802'ac8d    0x18  Code  Gb  stm32f4xx_hal.o [11]
+HAL_Init                 0x802'6039    0x3a  Code  Gb  stm32f4xx_hal.o [11]
+HAL_InitTick             0x802'5fd9    0x4c  Code  Gb  stm32f4xx_hal.o [11]
+HAL_MspInit              0x802'6ad5    0x4c  Code  Gb  stm32f4xx_hal_msp.o [3]
+HAL_NVIC_DisableIRQ      0x802'5be1     0xa  Code  Gb  stm32f4xx_hal_cortex.o [11]
+HAL_NVIC_EnableIRQ       0x802'5bd7     0xa  Code  Gb  stm32f4xx_hal_cortex.o [11]
+HAL_NVIC_SetPriority     0x802'5bb5    0x22  Code  Gb  stm32f4xx_hal_cortex.o [11]
+HAL_NVIC_SetPriorityGrouping
+                         0x802'5bad     0x8  Code  Gb  stm32f4xx_hal_cortex.o [11]
+HAL_RCC_ClockConfig      0x802'5511   0x14c  Code  Gb  stm32f4xx_hal_rcc.o [11]
+HAL_RCC_GetHCLKFreq      0x802'565d     0x6  Code  Gb  stm32f4xx_hal_rcc.o [11]
+HAL_RCC_GetPCLK1Freq     0x802'5663    0x16  Code  Gb  stm32f4xx_hal_rcc.o [11]
+HAL_RCC_GetPCLK2Freq     0x802'5679    0x16  Code  Gb  stm32f4xx_hal_rcc.o [11]
+HAL_RCC_GetSysClockFreq
+                         0x802'5f55    0x84  Code  Gb  stm32f4xx_hal_rcc.o [11]
+HAL_RCC_OscConfig        0x802'8825   0x414  Code  Gb  stm32f4xx_hal_rcc.o [11]
+HAL_SYSTICK_Config       0x802'5beb     0x8  Code  Gb  stm32f4xx_hal_cortex.o [11]
+HAL_TIMEx_BreakCallback
+                         0x802'93db     0x2  Code  Gb  stm32f4xx_hal_tim_ex.o [11]
+HAL_TIMEx_CommutCallback
+                         0x802'93df     0x2  Code  Gb  stm32f4xx_hal_tim_ex.o [11]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x802'932d    0x8c  Code  Gb  stm32f4xx_hal_tim_ex.o [11]
+HAL_TIM_Base_DeInit      0x802'7aef    0x7a  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_Base_Init        0x802'7a81    0x6e  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_Base_MspDeInit   0x802'79ef    0x3a  Code  Gb  tim.o [3]
+HAL_TIM_Base_MspInit     0x802'7871    0x6e  Code  Gb  tim.o [3]
+HAL_TIM_Base_Start_IT    0x802'7b69    0x96  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_ConfigClockSource
+                         0x802'83ed    0xee  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_Encoder_DeInit   0x802'7f31    0x6a  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_Encoder_Init     0x802'7e61    0xce  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_Encoder_MspDeInit
+                         0x802'7a29    0x26  Code  Gb  tim.o [3]
+HAL_TIM_Encoder_MspInit
+                         0x802'78df    0x82  Code  Gb  tim.o [3]
+HAL_TIM_Encoder_Start    0x802'7f9b    0xe2  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_Encoder_Stop     0x802'807d    0xf4  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_IC_CaptureCallback
+                         0x802'93d5     0x2  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_IRQHandler       0x802'8181   0x176  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_MspPostInit      0x802'7999    0x56  Code  Gb  tim.o [3]
+HAL_TIM_OC_DelayElapsedCallback
+                         0x802'93d7     0x2  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_PWM_ConfigChannel
+                         0x802'82f7    0xf6  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_PWM_Init         0x802'7c1d    0x6e  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_PWM_MspInit      0x802'7961    0x38  Code  Gb  tim.o [3]
+HAL_TIM_PWM_PulseFinishedCallback
+                         0x802'93d9     0x2  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_PWM_Start        0x802'7c8b   0x10c  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_PWM_Stop         0x802'7d97    0xae  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_TIM_PeriodElapsedCallback
+                         0x802'534f   0x10a  Code  Gb  interrupt_process.o [13]
+HAL_TIM_TriggerCallback
+                         0x802'93dd     0x2  Code  Gb  stm32f4xx_hal_tim.o [11]
+HAL_UARTEx_RxEventCallback
+                         0x802'5215     0x2  Code  Gb  stm32f4xx_hal_uart.o [11]
+HAL_UART_ErrorCallback   0x802'5213     0x2  Code  Gb  stm32f4xx_hal_uart.o [11]
+HAL_UART_IRQHandler      0x802'3c17   0x284  Code  Gb  stm32f4xx_hal_uart.o [11]
+HAL_UART_Init            0x802'3a99    0x76  Code  Gb  stm32f4xx_hal_uart.o [11]
+HAL_UART_MspInit         0x802'4ffd   0x130  Code  Gb  usart.o [3]
+HAL_UART_Receive_IT      0x802'3bdb    0x3c  Code  Gb  stm32f4xx_hal_uart.o [11]
+HAL_UART_RxCpltCallback
+                         0x802'5459    0x62  Code  Gb  interrupt_process.o [13]
+HAL_UART_Transmit        0x802'3b0f    0xcc  Code  Gb  stm32f4xx_hal_uart.o [11]
+HAL_UART_TxCpltCallback
+                         0x802'5217     0x2  Code  Gb  stm32f4xx_hal_uart.o [11]
+HCD_HC_IN_IRQHandler     0x802'9ba5   0x4a8  Code  Lc  stm32f4xx_hal_hcd.o [11]
+HCD_HC_OUT_IRQHandler    0x802'a04d   0x4ca  Code  Lc  stm32f4xx_hal_hcd.o [11]
+HCD_Port_IRQHandler      0x802'a613    0xa8  Code  Lc  stm32f4xx_hal_hcd.o [11]
+HCD_RXQLVL_IRQHandler    0x802'a517    0xfc  Code  Lc  stm32f4xx_hal_hcd.o [11]
+HardFault_Handler        0x802'ab87     0x2  Code  Gb  stm32f4xx_it.o [3]
+HardwareInit             0x802'6613    0x8a  Code  Gb  board.o [13]
+I2C_IsAcknowledgeFailed
+                         0x802'9a05    0x36  Code  Lc  stm32f4xx_hal_i2c.o [11]
+I2C_MasterRequestWrite   0x802'9745    0xbe  Code  Lc  stm32f4xx_hal_i2c.o [11]
+I2C_WaitOnBTFFlagUntilTimeout
+                         0x802'999f    0x58  Code  Lc  stm32f4xx_hal_i2c.o [11]
+I2C_WaitOnFlagUntilTimeout
+                         0x802'9803    0x8a  Code  Lc  stm32f4xx_hal_i2c.o [11]
+I2C_WaitOnMasterAddressFlagUntilTimeout
+                         0x802'988d    0xba  Code  Lc  stm32f4xx_hal_i2c.o [11]
+I2C_WaitOnTXEFlagUntilTimeout
+                         0x802'9947    0x58  Code  Lc  stm32f4xx_hal_i2c.o [11]
+Input                   0x2000'7950    0x70  Data  Gb  board.o [13]
+InputInf                0x2000'7800    0xa8  Data  Gb  board.o [13]
+InputInit                0x802'686b   0x1c8  Code  Gb  board.o [13]
+LCD1                    0x2000'7ca4     0xc  Data  Gb  CLCD_I2C.o [13]
+Log_Sawn                 0x802'6f19    0xfe  Code  Gb  run_machine.o [1]
+Loop                     0x802'60bd    0x18  Code  Gb  app.o [1]
+MX_GPIO_Init             0x802'8c39   0x298  Code  Gb  gpio.o [3]
+MX_I2C1_Init             0x802'8f01    0x4a  Code  Gb  i2c.o [3]
+MX_I2C3_Init             0x802'8f4b    0x4a  Code  Gb  i2c.o [3]
+MX_IWDG_Init             0x802'8ed1    0x30  Code  Gb  iwdg.o [3]
+MX_TIM2_Init             0x802'7649    0x96  Code  Gb  tim.o [3]
+MX_TIM3_Init             0x802'76df    0xa0  Code  Gb  tim.o [3]
+MX_TIM4_Init             0x802'777f    0x82  Code  Gb  tim.o [3]
+MX_TIM9_Init             0x802'7801    0x70  Code  Gb  tim.o [3]
+MX_USART1_UART_Init      0x802'4f75    0x44  Code  Gb  usart.o [3]
+MX_USART3_UART_Init      0x802'4fb9    0x44  Code  Gb  usart.o [3]
+MachineSetting          0x2000'7c94    0x10  Data  Gb  run_machine.o [1]
+MemManage_Handler        0x802'ab89     0x2  Code  Gb  stm32f4xx_it.o [3]
+MotBillet               0x2000'7d10     0x1  Data  Gb  motor_billet.o [12]
+MotBillet_Init           0x802'6c09    0x1c  Code  Gb  motor_billet.o [12]
+MotBillet_Write          0x802'6c25    0x30  Code  Gb  motor_billet.o [12]
+MotSawn                 0x2000'7d11     0x1  Data  Gb  motor_sawn.o [12]
+MotSawn_Init             0x802'64fd    0x1c  Code  Gb  motor_sawn.o [12]
+MotSawn_Write            0x802'6519    0x30  Code  Gb  motor_sawn.o [12]
+MotStepper              0x2000'7d08     0x2  Data  Gb  motor_stepper.o [12]
+NMI_Handler              0x802'ab85     0x2  Code  Gb  stm32f4xx_it.o [3]
+NVIC_EncodePriority      0x802'5b41    0x3e  Code  Lc  stm32f4xx_hal_cortex.o [11]
+OTG_FS_IRQHandler        0x802'ac65     0xa  Code  Gb  stm32f4xx_it.o [3]
+OpSensor                0x2000'7cec     0x4  Data  Gb  optical_sensor.o [12]
+OpSensor_Init            0x802'6c5d    0x1c  Code  Gb  optical_sensor.o [12]
+OpSensor_ReadState       0x802'6c79    0x32  Code  Gb  optical_sensor.o [12]
+Output                  0x2000'7748    0xb8  Data  Gb  board.o [13]
+OutputInit               0x802'669d   0x1ce  Code  Gb  board.o [13]
+PastState               0x2000'7ce8     0x4  Data  Gb  interrupt_process.o [13]
+PendSV_Handler           0x802'ab93     0x2  Code  Gb  stm32f4xx_it.o [3]
+ProcessUART              0x802'0f51   0x248  Code  Gb  process_data.o [1]
+Process_PC_Data          0x802'752d    0x84  Code  Gb  serial_func.o [1]
+PullBillet               0x802'6cb5   0x1de  Code  Lc  run_machine.o [1]
+Rcon                     0x802'bac8     0xc  Data  Gb  TI_aes_128.o [1]
+Region$$Table$$Base      0x802'b0cc           --   Gb  - Linker created -
+Region$$Table$$Limit     0x802'b0ec           --   Gb  - Linker created -
+RunInf                  0x2000'7cd0     0x8  Data  Gb  run_machine.o [1]
+RunMachine_Process       0x802'713b    0x5e  Code  Gb  run_machine.o [1]
+STPM_Dir                 0x802'6379    0x36  Code  Gb  motor_stepper.o [12]
+STPM_Enable              0x802'6349    0x30  Code  Gb  motor_stepper.o [12]
+STPM_PulseStart          0x802'63af    0x1e  Code  Gb  motor_stepper.o [12]
+STPM_PulseStartPullBillet
+                         0x802'63cd    0x1e  Code  Gb  motor_stepper.o [12]
+STPM_PulseStop           0x802'63eb    0x12  Code  Gb  motor_stepper.o [12]
+STPM_Run                 0x802'63fd    0xe4  Code  Gb  motor_stepper.o [12]
+SVC_Handler              0x802'ab8f     0x2  Code  Gb  stm32f4xx_it.o [3]
+Sawn_Billet              0x802'7017   0x124  Code  Lc  run_machine.o [1]
+SendFrameToPC            0x802'7235    0xca  Code  Gb  serial_func.o [1]
+SendLog                  0x802'144d     0xa  Code  Gb  log.o [9]
+SendLogStr               0x802'1457    0x16  Code  Gb  log.o [9]
+SendResponseToPC         0x802'72ff   0x22e  Code  Gb  serial_func.o [1]
+SendUART1                0x802'1ea5    0x14  Code  Gb  serial.o [13]
+SendUART3                0x802'1e8d    0x18  Code  Gb  serial.o [13]
+SerialSendToPC           0x802'1eb9    0x22  Code  Gb  serial.o [13]
+StartUp                  0x802'6079    0x44  Code  Gb  app.o [1]
+Start_Sawn               0x802'6e93    0x24  Code  Gb  run_machine.o [1]
+State                   0x2000'7ce4     0x4  Data  Gb  interrupt_process.o [13]
+SysTick_Config           0x802'5b7f    0x2e  Code  Lc  stm32f4xx_hal_cortex.o [11]
+SysTick_Handler          0x802'ab95     0x8  Code  Gb  stm32f4xx_it.o [3]
+SystemClock_Config       0x802'6551    0xc2  Code  Gb  board.o [13]
+SystemCoreClock         0x2000'0004     0x4  Data  Gb  system_stm32f4xx.o [10]
+SystemInit               0x802'b1ad    0x14  Code  Gb  system_stm32f4xx.o [10]
+TIM1_BRK_TIM9_IRQHandler
+                         0x802'abf5     0xa  Code  Gb  stm32f4xx_it.o [3]
+TIM2_IRQHandler          0x802'abff     0xa  Code  Gb  stm32f4xx_it.o [3]
+TIM3_IRQHandler          0x802'ac09     0xa  Code  Gb  stm32f4xx_it.o [3]
+TIM4_IRQHandler          0x802'ac13     0xa  Code  Gb  stm32f4xx_it.o [3]
+TIM_Base_SetConfig       0x802'84db    0xc4  Code  Gb  stm32f4xx_hal_tim.o [11]
+TIM_CCxChannelCmd        0x802'87cd    0x26  Code  Gb  stm32f4xx_hal_tim.o [11]
+TIM_ETR_SetConfig        0x802'87b7    0x16  Code  Gb  stm32f4xx_hal_tim.o [11]
+TIM_ITRx_SetConfig       0x802'87a7    0x10  Code  Lc  stm32f4xx_hal_tim.o [11]
+TIM_OC1_SetConfig        0x802'859f    0x66  Code  Lc  stm32f4xx_hal_tim.o [11]
+TIM_OC2_SetConfig        0x802'8605    0x70  Code  Gb  stm32f4xx_hal_tim.o [11]
+TIM_OC3_SetConfig        0x802'8675    0x6e  Code  Lc  stm32f4xx_hal_tim.o [11]
+TIM_OC4_SetConfig        0x802'86e3    0x4c  Code  Lc  stm32f4xx_hal_tim.o [11]
+TIM_TI1_ConfigInputStage
+                         0x802'875d    0x24  Code  Lc  stm32f4xx_hal_tim.o [11]
+TIM_TI2_ConfigInputStage
+                         0x802'8781    0x26  Code  Lc  stm32f4xx_hal_tim.o [11]
+UARTRec                 0x2000'6bf4   0x850  Data  Gb  serial_func.o [1]
+UARTSend                0x2000'7c44    0x30  Data  Gb  serial_func.o [1]
+UART_DMAAbortOnError     0x802'3fcd    0x12  Code  Lc  stm32f4xx_hal_uart.o [11]
+UART_EndRxTransfer       0x802'3f69    0x60  Code  Lc  stm32f4xx_hal_uart.o [11]
+UART_EndTransmit_IT      0x802'4043    0x1c  Code  Lc  stm32f4xx_hal_uart.o [11]
+UART_Receive_IT          0x802'405f    0xea  Code  Lc  stm32f4xx_hal_uart.o [11]
+UART_SetConfig           0x802'4149   0x1b8  Code  Lc  stm32f4xx_hal_uart.o [11]
+UART_Start_Receive_IT    0x802'3f25    0x44  Code  Gb  stm32f4xx_hal_uart.o [11]
+UART_Transmit_IT         0x802'3fe1    0x62  Code  Lc  stm32f4xx_hal_uart.o [11]
+UART_WaitOnFlagUntilTimeout
+                         0x802'3e9b    0x8a  Code  Lc  stm32f4xx_hal_uart.o [11]
+UART_enableProcess      0x2000'0088     0x1  Data  Gb  interrupt_process.o [13]
+UART_enableRec          0x2000'7d0a     0x1  Data  Lc  interrupt_process.o [13]
+UART_timeout            0x2000'7d00     0x2  Data  Lc  interrupt_process.o [13]
+UART_waitProcess        0x2000'7d0b     0x1  Data  Lc  interrupt_process.o [13]
+USART1_IRQHandler        0x802'ac1d     0xa  Code  Gb  stm32f4xx_it.o [3]
+USART3_IRQHandler        0x802'ac27     0xa  Code  Gb  stm32f4xx_it.o [3]
+USBH_FreePipe            0x802'ab5f    0x26  Code  Gb  usbh_pipes.o [15]
+USBH_Get_USB_Status      0x802'aab3    0x2a  Code  Gb  usbh_conf.o [7]
+USBH_HandleSof           0x802'aaef    0x1a  Code  Lc  usbh_core.o [15]
+USBH_LL_Connect          0x802'ab19    0x16  Code  Gb  usbh_core.o [15]
+USBH_LL_Disconnect       0x802'ab2f    0x30  Code  Gb  usbh_core.o [15]
+USBH_LL_IncTimer         0x802'aadd    0x12  Code  Gb  usbh_core.o [15]
+USBH_LL_PortDisabled     0x802'ab11     0x8  Code  Gb  usbh_core.o [15]
+USBH_LL_PortEnabled      0x802'ab09     0x8  Code  Gb  usbh_core.o [15]
+USBH_LL_Stop             0x802'aa9b    0x18  Code  Gb  usbh_conf.o [7]
+USB_DisableGlobalInt     0x802'a6c9     0xc  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_EnableGlobalInt      0x802'a6bd     0xc  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_FlushRxFifo          0x802'a725    0x4c  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_FlushTxFifo          0x802'a6d5    0x50  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_GetMode              0x802'a7dd     0x8  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_HC_Halt              0x802'a83d   0x162  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_HC_ReadInterrupt     0x802'a833     0xa  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_InitFSLSPClkSel      0x802'a7e5    0x4e  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_ReadInterrupts       0x802'a7d3     0xa  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_ReadPacket           0x802'a775    0x5e  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_StopHost             0x802'a99f    0xbc  Code  Gb  stm32f4xx_ll_usb.o [11]
+USB_wait_ms             0x2000'7cfe     0x2  Data  Gb  interrupt_process.o [13]
+UsageFault_Handler       0x802'ab8d     0x2  Code  Gb  stm32f4xx_it.o [3]
+WDT_Clear                0x802'5c19    0x10  Code  Gb  watchdog.o [13]
+WDT_timeout             0x2000'7d02     0x2  Data  Lc  interrupt_process.o [13]
+_LitobFullNoMb           0x802'2cd5   0x10c  Code  Lc  xprintffull_nomb.o [16]
+_LocaleC_isalpha         0x802'4313     0xc  Code  Gb  xlocale_c.o [16]
+_LocaleC_islower         0x802'430d     0x4  Code  Gb  xlocale_c.o [16]
+_LocaleC_isspace         0x802'4329    0x14  Code  Gb  xlocale_c.o [16]
+_LocaleC_isupper         0x802'4311     0x2  Code  Gb  xlocale_c.o [16]
+_LocaleC_tolower         0x802'433d     0xc  Code  Gb  xlocale_c.o [16]
+_Locale_lconv           0x2000'0008    0x38  Data  Lc  xlocale_c.o [16]
+_PrintfFullNoMb          0x802'1fa1   0xd06  Code  Gb  xprintffull_nomb.o [16]
+_PutcharFullNoMb         0x802'2e39    0x20  Code  Lc  xprintffull_nomb.o [16]
+_PutcharsFullNoMb        0x802'2e59    0x2e  Code  Lc  xprintffull_nomb.o [16]
+_SProut                  0x802'14d3     0xa  Code  Gb  xsprout.o [16]
+__NVIC_DisableIRQ        0x802'5af9    0x24  Code  Lc  stm32f4xx_hal_cortex.o [11]
+__NVIC_EnableIRQ         0x802'5add    0x1c  Code  Lc  stm32f4xx_hal_cortex.o [11]
+__NVIC_GetPriorityGrouping
+                         0x802'5ad3     0xa  Code  Lc  stm32f4xx_hal_cortex.o [11]
+__NVIC_SetPriority       0x802'5b1d    0x24  Code  Lc  stm32f4xx_hal_cortex.o [11]
+__NVIC_SetPriorityGrouping
+                         0x802'5ab1    0x22  Code  Lc  stm32f4xx_hal_cortex.o [11]
+__aeabi_cdcmple          0x802'4421          Code  Gb  DblCmpLe.o [17]
+__aeabi_cdrcmple         0x802'1c19          Code  Gb  DblCmpGe.o [17]
+__aeabi_d2iz             0x802'1b79          Code  Gb  DblToS32.o [17]
+__aeabi_d2uiz            0x802'4815          Code  Gb  DblToU32.o [17]
+__aeabi_dadd             0x802'45b5          Code  Gb  DblAddSub.o [17]
+__aeabi_ddiv             0x802'18cd          Code  Gb  DblDiv.o [17]
+__aeabi_dmul             0x802'1721          Code  Gb  DblMul.o [17]
+__aeabi_dsub             0x802'4731          Code  Gb  DblAddSub.o [17]
+__aeabi_i2d              0x802'4591          Code  Gb  S32ToDbl.o [17]
+__aeabi_ldiv0            0x802'56b5          Code  Gb  I64DivZer.o [18]
+__aeabi_memcpy           0x802'14dd          Code  Gb  ABImemcpy.o [18]
+__aeabi_memcpy4          0x802'14fd          Code  Gb  ABImemcpy.o [18]
+__aeabi_memcpy8          0x802'14fd          Code  Gb  ABImemcpy.o [18]
+__aeabi_memset           0x802'146d          Code  Gb  ABImemset.o [18]
+__aeabi_ui2d             0x802'4839          Code  Gb  U32ToDbl.o [17]
+__aeabi_uldivmod         0x802'4855          Code  Gb  I64DivMod.o [18]
+__cmain                  0x802'b1cd          Code  Gb  cmain.o [18]
+__exit                   0x802'6025    0x14  Code  Gb  exit.o [19]
+__iar_Fail_s             0x802'4371    0x1c  Code  Gb  xfail_s.o [16]
+__iar_Memchr             0x802'1f49          Code  Gb  memchr.o [18]
+__iar_Memset             0x802'146d          Code  Gb  ABImemset.o [18]
+__iar_Memset_word        0x802'1475          Code  Gb  ABImemset.o [18]
+__iar_Sto64              0x802'30ad   0x140  Code  Gb  strto64.o [17]
+__iar_Stoflt             0x802'4ba9   0x1b8  Code  Gb  iar_Stoflt.o [16]
+__iar_Stopfx             0x802'4a85   0x122  Code  Gb  iar_Stopfx.o [16]
+__iar_Stoulx             0x802'1585   0x13a  Code  Gb  iar_Stoulx.o [16]
+__iar_Stoxflt            0x802'4d61   0x1d2  Code  Gb  iar_Stoxflt.o [16]
+__iar_Stoxflt::digits    0x802'4f38    0x18  Data  Lc  iar_Stoxflt.o [16]
+__iar_Stoxflt::vals      0x802'4f50    0x18  Data  Lc  iar_Stoxflt.o [16]
+__iar_Strchr             0x802'4359          Code  Gb  strchr.o [18]
+__iar_data_init3         0x802'b039    0x28  Code  Gb  data_init.o [18]
+__iar_frexp              0x802'43bd          Code  Gb  frexp.o [17]
+__iar_frexpl             0x802'43bd          Code  Gb  frexp.o [17]
+__iar_globLocale        0x2000'0040    0x48  Data  Lc  xlocale_c.o [16]
+__iar_global_Locale      0x802'4349     0x4  Code  Gb  xlocale_c.o [16]
+__iar_init_vfp           0x802'b0a9          Code  Gb  fpinit_M.o [17]
+__iar_ldexp64            0x802'4455          Code  Gb  ldexp.o [17]
+__iar_lz77_init_single3
+                         0x802'aea5    0x78  Code  Gb  lz77_init_single.o [18]
+__iar_program_start      0x802'b335          Code  Gb  cstartup_M.o [18]
+__iar_round64            0x802'1b25          Code  Gb  round.o [17]
+__iar_scalbln64          0x802'4455          Code  Gb  ldexp.o [17]
+__iar_scalbn64           0x802'4455          Code  Gb  ldexp.o [17]
+__iar_softfp___iar_frexp64
+                         0x802'43b1          Code  Gb  frexp.o [17]
+__iar_softfp_frexp       0x802'43b1          Code  Gb  frexp.o [17]
+__iar_softfp_frexpl      0x802'43b1          Code  Gb  frexp.o [17]
+__iar_vfp___iar_round64
+                         0x802'1b15          Code  Gb  round.o [17]
+__iar_vfp_atof           0x802'1717     0x8  Code  Gb  math_wrappers64.o [17]
+__iar_vfp_round          0x802'1b15          Code  Gb  round.o [17]
+__iar_vfp_roundl         0x802'1b15          Code  Gb  round.o [17]
+__iar_zero_init3         0x802'afd9    0x38  Code  Gb  zero_init3.o [18]
+__low_level_init         0x802'b1eb     0x4  Code  Gb  low_level_init.o [16]
+__vector_table           0x802'0000          Data  Gb  startup_stm32f407xx.o [2]
+_call_main               0x802'b1d9          Code  Gb  cmain.o [18]
+_exit                    0x802'b1f5          Code  Gb  cexit.o [18]
+abort                    0x802'56ad     0x6  Code  Gb  abort.o [16]
+aes_decrypt              0x802'1c75    0x6c  Code  Gb  aes.o [1]
+aes_enc_dec              0x802'3243   0x41c  Code  Gb  TI_aes_128.o [1]
+aes_iv_default           0x802'b720    0x10  Data  Lc  aes.o [1]
+aes_key_default          0x802'b710    0x10  Data  Lc  aes.o [1]
+alarmHandShake          0x2000'7d06     0x2  Data  Gb  interrupt_process.o [13]
+atof                     0x802'3225     0x8  Code  Gb  strto64.o [17]
+atoi                     0x802'16c5     0x2  Code  Gb  iar_Stoulx.o [16]
+delay_ms                 0x802'6aad     0x8  Code  Gb  board.o [13]
+digits                   0x802'af44    0x28  Data  Lc  iar_Stoulx.o [16]
+exit                     0x802'b1ef     0x4  Code  Gb  exit.o [16]
+galois_mul2              0x802'322d    0x16  Code  Gb  TI_aes_128.o [1]
+hhcd_USB_OTG_FS         0x2000'7444   0x304  Data  Gb  usbh_conf.o [7]
+hi2c1                   0x2000'79c0    0x54  Data  Gb  i2c.o [3]
+hi2c3                   0x2000'7a14    0x54  Data  Gb  i2c.o [3]
+hiwdg                   0x2000'7cbc     0xc  Data  Gb  iwdg.o [3]
+htim2                   0x2000'7a68    0x48  Data  Gb  tim.o [3]
+htim3                   0x2000'7ab0    0x48  Data  Gb  tim.o [3]
+htim4                   0x2000'7af8    0x48  Data  Gb  tim.o [3]
+htim9                   0x2000'7b40    0x48  Data  Gb  tim.o [3]
+huart1                  0x2000'7b88    0x44  Data  Gb  usart.o [3]
+huart3                  0x2000'7bcc    0x44  Data  Gb  usart.o [3]
+i1                      0x2000'7cdc     0x4  Data  Gb  interrupt_process.o [13]
+i2                      0x2000'7ce0     0x4  Data  Gb  interrupt_process.o [13]
+iTimeout                0x2000'7d04     0x2  Data  Gb  interrupt_process.o [13]
+isalpha                  0x802'56b7    0x14  Code  Gb  isalpha.o [16]
+isspace                  0x802'1f1f    0x14  Code  Gb  isspace.o [16]
+k                       0x2000'7d0e     0x1  Data  Gb  interrupt_process.o [13]
+ldexp                    0x802'4455          Code  Gb  ldexp.o [17]
+ldexpl                   0x802'4455          Code  Gb  ldexp.o [17]
+localeconv               0x802'434d     0x4  Code  Gb  xlocale_c.o [16]
+log1                    0x2000'7c10    0x34  Data  Gb  log.o [9]
+logLen                  0x2000'7d0f     0x1  Data  Gb  log.o [9]
+main                     0x802'56cb    0x10  Code  Gb  main.o [3]
+memchr                   0x802'1f49          Code  Gb  memchr.o [18]
+memcmp                   0x802'1bb1          Code  Gb  memcmp.o [18]
+ndigs                    0x802'af1c    0x28  Data  Lc  iar_Stoulx.o [16]
+pFlash                  0x2000'7c74    0x20  Data  Gb  stm32f4xx_hal_flash.o [11]
+pows                     0x802'af90    0x48  Data  Lc  strto64.o [17]
+recUART1                0x2000'7d0d     0x1  Data  Gb  interrupt_process.o [13]
+recUART3                0x2000'7d0c     0x1  Data  Gb  interrupt_process.o [13]
+round                    0x802'1b25          Code  Gb  round.o [17]
+roundl                   0x802'1b25          Code  Gb  round.o [17]
+rsbox                    0x802'ada4   0x100  Data  Gb  TI_aes_128.o [1]
+sbox                     0x802'aca4   0x100  Data  Gb  TI_aes_128.o [1]
+scalbln                  0x802'4455          Code  Gb  ldexp.o [17]
+scalblnl                 0x802'4455          Code  Gb  ldexp.o [17]
+scalbn                   0x802'4455          Code  Gb  ldexp.o [17]
+scalbnl                  0x802'4455          Code  Gb  ldexp.o [17]
+scale                    0x802'2de1    0x46  Code  Lc  xprintffull_nomb.o [16]
+sec_hand                0x2000'7cf4     0x4  Data  Lc  xfail_s.o [16]
+sprintf                  0x802'16d1    0x40  Code  Gb  sprintf.o [16]
+strchr                   0x802'4359          Code  Gb  strchr.o [18]
+strlen                   0x802'1ee9          Code  Gb  strlen.o [18]
+tolower                  0x802'1f33    0x14  Code  Gb  tolower.o [16]
+uwTick                  0x2000'7cf0     0x4  Data  Gb  stm32f4xx_hal.o [11]
+uwTickFreq              0x2000'0089     0x1  Data  Gb  stm32f4xx_hal.o [11]
+uwTickPrio              0x2000'0000     0x4  Data  Gb  stm32f4xx_hal.o [11]
+xor_iv                   0x802'1c4d    0x28  Code  Lc  aes.o [1]
+
+
+[1] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\App\Src
+[2] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\EWARM
+[3] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\Core
+[4] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\FATFS\App
+[5] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\FATFS\Target
+[6] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\USB_HOST\App
+[7] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Application\User\USB_HOST\Target
+[8] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\BootLoader\Src
+[9] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Common\Src
+[10] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\CMSIS
+[11] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Drivers\STM32F4xx_HAL_Driver
+[12] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Ext_Driver\Src
+[13] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\HAL\Int_Driver\Src
+[14] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\FatFs
+[15] = D:\Firmware_TNT\3_May_uon_chan_chu\Ver2\App_Firmware_20240904\EWARM\BoardMachineV2024_enc\Obj\Middlewares\USB_Host_Library
+[16] = dl7M_tlf.a
+[17] = m7M_tls.a
+[18] = rt7M_tl.a
+[19] = shb_l.a
+
+  44'835 bytes of readonly  code memory
+   3'353 bytes of readonly  data memory
+  81'169 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
